@@ -3,56 +3,57 @@
 
 SET FOREIGN_KEY_CHECKS=0;
 
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (1, 'School of Design 1', 61, 387, 3037.76, 428.1);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (2, 'School of Psychology 2', 57, 109, 3872.99, 225.56);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (3, 'School of Arts 3', 72, 351, 9629.81, 348.07);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (4, 'School of Philosophy 4', 91, 233, 8331.22, 435.14);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (5, 'School of Mathematics 5', 77, 388, 6442.19, 186.47);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (6, 'School of Biology 6', 63, 449, 5702.39, 463.91);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (7, 'School of Psychology 7', 60, 106, 7322.16, 392.35);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (8, 'School of Physics 8', 34, 220, 8686.18, 167.54);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (9, 'School of Biology 9', 3, 162, 6428.78, 231.49);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (10, 'School of Economics 10', 3, 178, 9719.27, 423.08);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (11, 'School of Engineering 11', 43, 185, 2608.19, 374.85);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (12, 'School of Chemistry 12', 77, 143, 6522.26, 480.04);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (13, 'School of Architecture 13', 94, 240, 3414.81, 273.43);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (14, 'School of Medicine 14', 5, 208, 9103.55, 236.16);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (15, 'School of Engineering 15', 41, 360, 9010.26, 298.34);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (16, 'School of Engineering 16', 49, 341, 7144.56, 432.52);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (17, 'School of Chemistry 17', 28, 266, 5291.92, 129.13);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (18, 'School of Medicine 18', 24, 320, 8737.64, 425.38);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (19, 'School of Philosophy 19', 94, 174, 2893.87, 177.9);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (20, 'School of Philosophy 20', 84, 214, 3008.31, 341.88);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (21, 'School of Arts 21', 30, 379, 5880.44, 320.11);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (22, 'School of Arts 22', 91, 311, 4804.62, 145.32);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (23, 'School of Physics 23', 67, 496, 6323.05, 380.94);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (24, 'School of Business 24', 29, 167, 9905.24, 102.58);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (25, 'School of Philosophy 25', 41, 359, 4286.13, 317.95);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (26, 'School of Design 26', 64, 196, 5124.73, 456.99);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (27, 'School of Arts 27', 58, 259, 6254.04, 374.7);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (28, 'School of Political Science 28', 43, 213, 3491.67, 314.6);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (29, 'School of Engineering 29', 10, 456, 9965.45, 276.85);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (30, 'School of Literature 30', 19, 232, 4214.92, 354.53);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (31, 'School of Law 31', 11, 181, 2508.2, 294.65);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (32, 'School of Mathematics 32', 25, 343, 9095.82, 365.83);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (33, 'School of Literature 33', 67, 354, 8231.15, 390.5);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (34, 'School of Arts 34', 92, 436, 2520.29, 255.57);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (35, 'School of Biology 35', 3, 421, 7983.75, 314.4);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (36, 'School of Architecture 36', 48, 230, 3634.36, 113.69);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (37, 'School of Engineering 37', 100, 178, 6902.96, 135.62);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (38, 'School of Chemistry 38', 11, 481, 5105.47, 212.18);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (39, 'School of Business 39', 57, 475, 3423.32, 264.78);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (40, 'School of Literature 40', 54, 163, 4780.51, 290.29);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (41, 'School of Business 41', 4, 372, 2510.55, 125.63);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (42, 'School of Chemistry 42', 6, 279, 7783.09, 114.31);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (43, 'School of Economics 43', 100, 119, 5164.91, 233.75);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (44, 'School of Environmental Science 44', 64, 351, 2672.66, 131.95);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (45, 'School of Chemistry 45', 56, 334, 8292.2, 239.02);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (46, 'School of Physics 46', 66, 385, 7982.01, 150.23);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (47, 'School of Literature 47', 91, 424, 8853.95, 464.58);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (48, 'School of Engineering 48', 59, 307, 9840.28, 280.8);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (49, 'School of Economics 49', 45, 169, 9605.67, 124.2);
-INSERT INTO college (college_id, name, product_id, max_allocation, price, admission_fee) VALUES (50, 'School of Economics 50', 27, 197, 4453.24, 269.67);
+INSERT INTO college (name, max_allocation, price, admission_fee) VALUES 
+('School of Design 1', 387, 3037.75, 428.1),
+('School of Psychology 2', 109, 3873.0, 225.55),
+('School of Arts 3', 351, 9629.8, 348.05),
+('School of Philosophy 4', 233, 8331.2, 435.15),
+('School of Mathematics 5', 388, 6442.2, 186.45),
+('School of Biology 6', 449, 5702.4, 463.9),
+('School of Psychology 7', 106, 7322.15, 392.35),
+('School of Physics 8', 220, 8686.2, 167.55),
+('School of Biology 9', 162, 6428.75, 231.5),
+('School of Economics 10', 178, 9719.25, 423.1),
+('School of Engineering 11', 185, 2608.2, 374.85),
+('School of Chemistry 12', 143, 6522.25, 480.05),
+('School of Architecture 13', 240, 3414.8, 273.45),
+('School of Medicine 14', 208, 9103.55, 236.15),
+('School of Engineering 15', 360, 9010.25, 298.35),
+('School of Engineering 16', 341, 7144.55, 432.5),
+('School of Chemistry 17', 266, 5291.9, 129.15),
+('School of Medicine 18', 320, 8737.65, 425.4),
+('School of Philosophy 19', 174, 2893.85, 177.9),
+('School of Philosophy 20', 214, 3008.3, 341.9),
+('School of Arts 21', 379, 5880.45, 320.1),
+('School of Arts 22', 311, 4804.6, 145.3),
+('School of Physics 23', 496, 6323.05, 380.95),
+('School of Business 24', 167, 9905.25, 102.6),
+('School of Philosophy 25', 359, 4286.15, 317.95),
+('School of Design 26', 196, 5124.75, 457.0),
+('School of Arts 27', 259, 6254.05, 374.7),
+('School of Political Science 28', 213, 3491.65, 314.6),
+('School of Engineering 29', 456, 9965.45, 276.85),
+('School of Literature 30', 232, 4214.9, 354.55),
+('School of Law 31', 181, 2508.2, 294.65),
+('School of Mathematics 32', 343, 9095.8, 365.85),
+('School of Literature 33', 354, 8231.15, 390.5),
+('School of Arts 34', 436, 2520.3, 255.55),
+('School of Biology 35', 421, 7983.75, 314.4),
+('School of Architecture 36', 230, 3634.35, 113.7),
+('School of Engineering 37', 178, 6902.95, 135.6),
+('School of Chemistry 38', 481, 5105.45, 212.2),
+('School of Business 39', 475, 3423.3, 264.8),
+('School of Literature 40', 163, 4780.5, 290.3),
+('School of Business 41', 372, 2510.55, 125.65),
+('School of Chemistry 42', 279, 7783.1, 114.3),
+('School of Economics 43', 119, 5164.9, 233.75),
+('School of Environmental Science 44', 351, 2672.65, 131.95),
+('School of Chemistry 45', 334, 8292.2, 239.0),
+('School of Physics 46', 385, 7982.0, 150.25),
+('School of Literature 47', 424, 8853.95, 464.6),
+('School of Engineering 48', 307, 9840.25, 280.8),
+('School of Economics 49', 169, 9605.65, 124.2),
+('School of Economics 50', 197, 4453.25, 269.65);
 
 COMMIT;
 
