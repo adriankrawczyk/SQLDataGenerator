@@ -1,244 +1,235 @@
-Poland;Warsaw;Marszałkowska
-Poland;Warsaw;Pięciomorgowa
-Poland;Warsaw;Wrzesińska
-Poland;Warsaw;Królewska (Royal)
-Poland;Warsaw;Królewska Ziemia
-Poland;Warsaw;Jana Pawła II (John Paul II)
-Poland;Warsaw;Księcia Janusza (Prince Janusz)
-Poland;Warsaw;Rynkowska
-Poland;Warsaw;Włodkowica
-Poland;Warsaw;Nowogrodzka
-Poland;Kraków;Floriańska
-Poland;Kraków;Grodzka
-Poland;Kraków;Nowa (New)
-Poland;Kraków;Długa (Long)
-Poland;Kraków;Pawia
-Poland;Kraków;Ratuszowa
-Poland;Kraków;Mazowiecka
-Poland;Kraków;Starowiślna
-Poland;Kraków;Cystersów (Cistercians)
-Poland;Łódź;Piotrkowska
-Poland;Łódź;Narutowicza
-Poland;Łódź;Tuwima
-Poland;Łódź;Wólczańska
-Poland;Łódź;Żeromskiego
-Poland;Łódź;Struga
-Poland;Łódź;Sienkiewicza
-Poland;Łódź;Pilsudskiego
-Poland;Łódź;Pięciomorgowa
-Poland;Łódź;Zgierska
-Germany;Berlin;Unter den Linden (Under the Linden Trees)
-Germany;Berlin;Friedrichstraße
-Germany;Berlin;Alexanderplatz
-Germany;Berlin;Karl-Marx-Allee
-Germany;Berlin;Sonnenallee (Sun Avenue)
-Germany;Berlin;Kottbusser Damm
-Germany;Berlin;Potsdamer Straße
-Germany;Berlin;Schlesische Straße
-Germany;Berlin;Leipziger Straße
-Germany;Berlin;Am Köllnischen Park
-Germany;Munich;Maximilianstraße
-Germany;Munich;Sendlinger Straße
-Germany;Munich;Leopoldstraße
-Germany;Munich;Rosenheimer Straße
-Germany;Munich;Theresienstraße
-Germany;Munich;Gabelsbergerstraße
-Germany;Munich;Haidhausen
-Germany;Munich;Augustinerstraße
-Germany;Munich;Goetheplatz
-Germany;Hamburg;Jungfernstieg
-Germany;Hamburg;Mönckebergstraße
-Germany;Hamburg;Reeperbahn
-Germany;Hamburg;Grosse Freiheit
-Germany;Hamburg;Spitalerstraße
-Germany;Hamburg;Neuer Wall
-Germany;Hamburg;Lange Reihe
-Germany;Hamburg;Schanzenstraße
-Germany;Hamburg;Alsterufer
-France;Paris;Champs-Élysées
-France;Paris;Rue de Rivoli
-France;Paris;Rue de la Paix
-France;Paris;Boulevard Saint-Germain
-France;Paris;Avenue des Champs-Élysées
-France;Paris;Rue Saint-Honoré
-France;Paris;Rue Montmartre
-France;Paris;Boulevard Haussmann
-France;Paris;Rue du Faubourg Saint-Antoine
-France;Marseille;Rue de la République
-France;Marseille;Avenue de la Canebière
-France;Marseille;Rue Saint-Ferréol
-France;Marseille;Rue Paradis
-France;Marseille;Boulevard Longchamp
-France;Marseille;Quai des Belges
-France;Marseille;Avenue des Chartreux
-France;Marseille;Rue de Lodi
-France;Marseille;Rue du Théâtre
-France;Lyon;Rue de la République
-France;Lyon;Rue Mercière
-France;Lyon;Boulevard de la Croix-Rousse
-France;Lyon;Place Bellecour
-France;Lyon;Rue des Marronniers
-France;Lyon;Rue Victor Hugo
-France;Lyon;Rue de l'Université
-France;Lyon;Rue Jean Jaurès
-France;Lyon;Avenue Jean Jaurès
-France;Lyon;Place des Terreaux
-Belgium;Brussels;Rue de la Loi (Law Street)
-Belgium;Brussels;Boulevard Anspach
-Belgium;Brussels;Rue de la Montagne (Mountain Street)
-Belgium;Brussels;Rue Neuve (New Street)
-Belgium;Brussels;Avenue Louise
-Belgium;Brussels;Rue Royale
-Belgium;Brussels;Rue de Flandre
-Belgium;Brussels;Chaussée de Louvain
-Belgium;Brussels;Rue du Midi (South Street)
-Belgium;Brussels;Boulevard de Waterloo
-Belgium;Antwerp;Meir
-Belgium;Antwerp;Grote Markt (Big Market)
-Belgium;Antwerp;Kloosterstraat (Monastery Street)
-Belgium;Antwerp;Rue de la Cathédrale (Cathedral Street)
-Belgium;Antwerp;Groenplaats (Green Square)
-Belgium;Antwerp;Keyserlei
-Belgium;Antwerp;De Keyserlei
-Belgium;Antwerp;Verversrui
-Belgium;Antwerp;Schipperskwartier (Ship's Quarter)
-Belgium;Ghent;Korenmarkt (Grain Market)
-Belgium;Ghent;Veldstraat
-Belgium;Ghent;Hoogstraat (High Street)
-Belgium;Ghent;Vrijdagmarkt (Friday Market)
-Belgium;Ghent;Belfortstraat (Belfry Street)
-Netherlands;Amsterdam;Damstraat (Dam Street)
-Netherlands;Amsterdam;Leidseplein (Leiden Square)
-Netherlands;Amsterdam;Kalverstraat (Calf Street)
-Netherlands;Amsterdam;Prinsengracht (Prince's Canal)
-Netherlands;Amsterdam;Vondelpark
-Netherlands;Amsterdam;Spuistraat (Spui Street)
-Netherlands;Amsterdam;Rembrandtplein (Rembrandt Square)
-Netherlands;Amsterdam;Utrechtsestraat (Utrecht Street)
-Netherlands;Amsterdam;Haarlemmerdijk (Haarlem Dyke)
-Netherlands;Amsterdam;Nieuwendijk (New Dike)
-Netherlands;Rotterdam;Lijnbaan
-Netherlands;Rotterdam;Coolsingel
-Netherlands;Rotterdam;Witte de Withstraat
-Netherlands;Rotterdam;West-Kruiskade
-Netherlands;Rotterdam;Boompjes
-Netherlands;Rotterdam;Sint-Jobshaven (St. Job's Harbor)
-Netherlands;Rotterdam;Schiedamseweg
-Netherlands;Rotterdam;Weena
-Netherlands;Rotterdam;Beursplein (Exchange Square)
-Netherlands;The Hague;Lange Voorhout (Long Forecourt)
-Netherlands;The Hague;Frederik Hendriklaan
-Netherlands;The Hague;Noordeinde (North End)
-Netherlands;The Hague;Wagenstraat (Wagon Street)
-Netherlands;The Hague;Spui
-Netherlands;The Hague;Grote Marktstraat (Big Market Street)
-Netherlands;The Hague;Anna Paulownastraat
-Netherlands;The Hague;Oude Molstraat (Old Mill Street)
-Netherlands;The Hague;Prinsessegracht (Princess Canal)
-Czech Republic;Prague;Václavské náměstí (Wenceslas Square)
-Czech Republic;Prague;Na Příkopě
-Czech Republic;Prague;Wenceslas Square
-Czech Republic;Prague;Národní
-Czech Republic;Prague;Karoliny Světlé
-Czech Republic;Prague;Karlovo náměstí (Charles Square)
-Czech Republic;Prague;Revoluční (Revolutionary)
-Czech Republic;Prague;Jindřišská
-Czech Republic;Prague;Týnská
-Czech Republic;Prague;Malá Strana (Lesser Town)
-Czech Republic;Brno;Masarykova
-Czech Republic;Brno;Cejl
-Czech Republic;Brno;Česká
-Czech Republic;Brno;Náměstí Svobody (Freedom Square)
-Czech Republic;Brno;Veveří
-Czech Republic;Brno;Tkalcovská
-Czech Republic;Brno;Dornych
-Czech Republic;Brno;Špitálka
-Czech Republic;Brno;Koliště
-Czech Republic;Brno;Pekařská
-Czech Republic;Ostrava;Stodolní
-Czech Republic;Ostrava;Masarykova
-Czech Republic;Ostrava;Karolina
-Czech Republic;Ostrava;Opavská
-Czech Republic;Ostrava;Nádražní
-Czech Republic;Ostrava;Mírové náměstí (Peace Square)
-Czech Republic;Ostrava;Hranická
-Czech Republic;Ostrava;Klimkovická
-Czech Republic;Ostrava;Ruská
-Czech Republic;Ostrava;Českobratrská
-Slovakia;Bratislava;Hviezdoslavovo námestie (Hviezdoslav Square)
-Slovakia;Bratislava;Karadžičova
-Slovakia;Bratislava;Obchodná
-Slovakia;Bratislava;Špitálska
-Slovakia;Bratislava;Námestie SNP (SNP Square)
-Slovakia;Bratislava;Dostojevského rad
-Slovakia;Bratislava;Panská
-Slovakia;Bratislava;Mlynské nivy
-Slovakia;Bratislava;Ružinovská
-Slovakia;Bratislava;Petržalka
-Slovakia;Košice;Hlavná (Main)
-Slovakia;Košice;Masarykova
-Slovakia;Košice;Kuzmányho
-Slovakia;Košice;Mlynská
-Slovakia;Košice;Námestie Maratónu Mieru (Peace Marathon Square)
-Slovakia;Košice;Lichnerova
-Slovakia;Košice;Strojárenská
-Slovakia;Košice;Kováčska
-Slovakia;Košice;Alejová
-Slovakia;Nitra;Špitálska
-Slovakia;Nitra;Bratislavská
-Slovakia;Nitra;Chrenovská
-Slovakia;Nitra;Svätoplukova
-Slovakia;Nitra;Fatranská
-Slovakia;Nitra;Biskupická
-Slovakia;Nitra;Na Drahách
-Slovakia;Nitra;Tríbečská
-Slovakia;Nitra;Kmeťova
-Slovakia;Nitra;Kováčska
-Hungary;Budapest;Andrássy út
-Hungary;Budapest;Váci utca
-Hungary;Budapest;Rákóczi út
-Hungary;Budapest;Kossuth Lajos utca
-Hungary;Budapest;József körút
-Hungary;Budapest;Nagykörút (Grand Boulevard)
-Hungary;Budapest;Rakpart
-Hungary;Budapest;Hősök tere (Heroes' Square)
-Hungary;Budapest;Deák Ferenc tér (Deák Ferenc Square)
-Hungary;Budapest;Bajcsy-Zsilinszky út
-Hungary;Debrecen;Kossuth Lajos utca
-Hungary;Debrecen;Piac utca (Market Street)
-Hungary;Debrecen;Batthyány utca
-Hungary;Debrecen;Ady Endre utca
-Hungary;Debrecen;Szoboszlói út
-Hungary;Debrecen;Derék utca
-Hungary;Debrecen;Csemete utca
-Hungary;Debrecen;Böszörményi út
-Hungary;Debrecen;Kossuth tér (Kossuth Square)
-Hungary;Szeged;Kossuth Lajos sugárút
-Hungary;Szeged;Deák Ferenc utca
-Hungary;Szeged;Széchenyi tér (Széchenyi Square)
-Hungary;Szeged;Vasút utca (Railroad Street)
-Hungary;Szeged;Tisza Lajos körút
-Hungary;Szeged;Béke utca (Peace Street)
-Hungary;Szeged;Rózsa utca (Rose Street)
-Hungary;Szeged;Lázár utca (Lazarus Street)
-Hungary;Szeged;Kálvária sugárút
-Slovenia;Ljubljana;Prešernov trg (Prešeren Square)
-Slovenia;Ljubljana;Cankarjeva ulica
-Slovenia;Ljubljana;Trg republike (Republic Square)
-Slovenia;Ljubljana;Šubičeva ulica
-Slovenia;Ljubljana;Trubarjeva ulica
-Slovenia;Ljubljana;Miklošičeva ulica
-Slovenia;Ljubljana;Wolfova ulica
-Slovenia;Ljubljana;Dalmatinova ulica
-Slovenia;Ljubljana;Jelovška ulica
-Slovenia;Ljubljana;Celovška cesta
-Slovenia;Maribor;Slomškov trg
-Slovenia;Maribor;Glavni trg (Main Square)
-Slovenia;Maribor;Ulica heroja 29. novembra
-Slovenia;Maribor;Miklošičeva ulica
-Slovenia;Maribor;Gregorčičeva ulica
-Slovenia;Maribor;Pohorska ulica
-Slovenia;Maribor;Partizanska cesta
-Slovenia;Maribor;Trg svobode (Freedom Square)
-Slovenia;Maribor;Ulica Račke
-Slovenia;Maribor;Lenartska cesta
+Poland;Warsaw;Marszałkowska;00-123
+Poland;Warsaw;Pięciomorgowa;00-456
+Poland;Warsaw;Wrzesińska;00-789
+Poland;Warsaw;Królewska;00-012
+Poland;Warsaw;Królewska Ziemia;00-345
+Poland;Warsaw;Jana Pawła II;00-678
+Poland;Warsaw;Księcia Janusza;00-901
+Poland;Warsaw;Rynkowska;00-234
+Poland;Warsaw;Włodkowica;00-567
+Poland;Warsaw;Nowogrodzka;00-890
+Poland;Kraków;Floriańska;30-123
+Poland;Kraków;Grodzka;30-456
+Poland;Kraków;Nowa;30-789
+Poland;Kraków;Długa;30-012
+Poland;Kraków;Pawia;30-345
+Poland;Kraków;Ratuszowa;30-678
+Poland;Kraków;Mazowiecka;30-901
+Poland;Kraków;Starowiślna;30-234
+Poland;Kraków;Cystersów;30-567
+Poland;Łódź;Piotrkowska;90-123
+Poland;Łódź;Narutowicza;90-456
+Poland;Łódź;Tuwima;90-789
+Poland;Łódź;Wólczańska;90-012
+Poland;Łódź;Żeromskiego;90-345
+Poland;Łódź;Struga;90-678
+Poland;Łódź;Sienkiewicza;90-901
+Poland;Łódź;Pilsudskiego;90-234
+Poland;Łódź;Pięciomorgowa;90-567
+Poland;Łódź;Zgierska;90-890
+Germany;Berlin;Unter den Linden;10115
+Germany;Berlin;Friedrichstraße;10117
+Germany;Berlin;Alexanderplatz;10178
+Germany;Berlin;Karl-Marx-Allee;10243
+Germany;Berlin;Sonnenallee;12059
+Germany;Berlin;Kottbusser Damm;12053
+Germany;Berlin;Potsdamer Straße;10785
+Germany;Berlin;Schlesische Straße;10997
+Germany;Berlin;Leipziger Straße;10120
+Germany;Berlin;Am Köllnischen Park;10179
+Germany;Munich;Maximilianstraße;80333
+Germany;Munich;Sendlinger Straße;80331
+Germany;Munich;Leopoldstraße;80802
+Germany;Munich;Rosenheimer Straße;81667
+Germany;Munich;Theresienstraße;80336
+Germany;Munich;Gabelsbergerstraße;80333
+Germany;Munich;Haidhausen;81667
+Germany;Munich;Augustinerstraße;80331
+Germany;Munich;Goetheplatz;80336
+Germany;Hamburg;Jungfernstieg;20354
+Germany;Hamburg;Mönckebergstraße;20095
+Germany;Hamburg;Reeperbahn;20359
+Germany;Hamburg;Grosse Freiheit;20359
+Germany;Hamburg;Spitalerstraße;20095
+Germany;Hamburg;Neuer Wall;20354
+Germany;Hamburg;Lange Reihe;20099
+Germany;Hamburg;Schanzenstraße;20357
+Germany;Hamburg;Alsterufer;20099
+France;Paris;Champs-Élysées;75008
+France;Paris;Rue de Rivoli;75001
+France;Paris;Rue de la Paix;75002
+France;Paris;Boulevard Saint-Germain;75006
+France;Paris;Avenue des Champs-Élysées;75008
+France;Paris;Rue Saint-Honoré;75001
+France;Paris;Rue Montmartre;75009
+France;Paris;Boulevard Haussmann;75009
+France;Paris;Rue du Faubourg Saint-Antoine;75011
+France;Marseille;Rue de la République;13001
+France;Marseille;Avenue de la Canebière;13001
+France;Marseille;Rue Saint-Ferréol;13001
+France;Marseille;Rue Paradis;13006
+France;Marseille;Boulevard Longchamp;13001
+France;Marseille;Quai des Belges;13001
+France;Marseille;Avenue des Chartreux;13004
+France;Marseille;Rue de Lodi;13006
+France;Marseille;Rue du Théâtre;13001
+France;Lyon;Rue de la République;69002
+France;Lyon;Rue Mercière;69002
+France;Lyon;Boulevard de la Croix-Rousse;69004
+France;Lyon;Place Bellecour;69002
+France;Lyon;Rue des Marronniers;69002
+France;Lyon;Rue Victor Hugo;69002
+France;Lyon;Rue de l'Université;69007
+France;Lyon;Rue Jean Jaurès;69007
+France;Lyon;Avenue Jean Jaurès;69007
+France;Lyon;Place des Terreaux;69001
+Belgium;Brussels;Rue de la Loi;1000
+Belgium;Brussels;Boulevard Anspach;1000
+Belgium;Brussels;Rue de la Montagne;1000
+Belgium;Brussels;Rue Neuve;1000
+Belgium;Brussels;Avenue Louise;1050
+Belgium;Brussels;Rue Royale;1000
+Belgium;Brussels;Rue de Flandre;1000
+Belgium;Brussels;Chaussée de Louvain;1210
+Belgium;Brussels;Rue du Midi;1060
+Belgium;Brussels;Boulevard de Waterloo;1000
+Belgium;Antwerp;Meir;2000
+Belgium;Antwerp;Grote Markt;2000
+Belgium;Antwerp;Kloosterstraat;2000
+Belgium;Antwerp;Rue de la Cathédrale;2000
+Belgium;Antwerp;Groenplaats;2000
+Belgium;Antwerp;Keyserlei;2018
+Belgium;Antwerp;De Keyserlei;2018
+Belgium;Antwerp;Verversrui;2000
+Belgium;Antwerp;Schipperskwartier;2000
+Belgium;Ghent;Korenmarkt;9000
+Belgium;Ghent;Veldstraat;9000
+Belgium;Ghent;Hoogstraat;9000
+Belgium;Ghent;Vrijdagmarkt;9000
+Belgium;Ghent;Belfortstraat;9000
+Netherlands;Amsterdam;Damstraat;1012
+Netherlands;Amsterdam;Leidseplein;1017
+Netherlands;Amsterdam;Kalverstraat;1012
+Netherlands;Amsterdam;Prinsengracht;1015
+Netherlands;Amsterdam;Vondelpark;1071
+Netherlands;Amsterdam;Spuistraat;1012
+Netherlands;Amsterdam;Rembrandtplein;1017
+Netherlands;Amsterdam;Utrechtsestraat;1017
+Netherlands;Amsterdam;Haarlemmerdijk;1013
+Netherlands;Amsterdam;Nieuwendijk;1012
+Netherlands;Rotterdam;Lijnbaan;3012
+Netherlands;Rotterdam;Coolsingel;3011
+Netherlands;Rotterdam;Witte de Withstraat;3012
+Netherlands;Rotterdam;West-Kruiskade;3014
+Netherlands;Rotterdam;Boompjes;3011
+Netherlands;Rotterdam;Sint-Jobshaven;3011
+Netherlands;Rotterdam;Schiedamseweg;3025
+Netherlands;Rotterdam;Weena;3012
+Netherlands;Rotterdam;Beursplein;3011
+Netherlands;The Hague;Lange Voorhout;2514
+Netherlands;The Hague;Frederik Hendriklaan;2582
+Netherlands;The Hague;Noordeinde;2514
+Netherlands;The Hague;Wagenstraat;2512
+Netherlands;The Hague;Spui;2511
+Netherlands;The Hague;Grote Marktstraat;2511
+Netherlands;The Hague;Anna Paulownastraat;2518
+Netherlands;The Hague;Oude Molstraat;2513
+Netherlands;The Hague;Prinsessegracht;2514
+Czech Republic;Prague;Václavské náměstí;11000
+Czech Republic;Prague;Na Příkopě;11000
+Czech Republic;Prague;Wenceslas Square;11000
+Czech Republic;Prague;Národní;11000
+Czech Republic;Prague;Karoliny Světlé;11000
+Czech Republic;Prague;Karlovo náměstí;12000
+Czech Republic;Prague;Revoluční;11000
+Czech Republic;Prague;Jindřišská;11000
+Czech Republic;Prague;Týnská;11000
+Czech Republic;Prague;Malá Strana;11800
+Czech Republic;Brno;Masarykova;60200
+Czech Republic;Brno;Cejl;60200
+Czech Republic;Brno;Česká;60200
+Czech Republic;Brno;Náměstí Svobody;60200
+Czech Republic;Brno;Veveří;60200
+Czech Republic;Brno;Tkalcovská;60200
+Czech Republic;Brno;Dornych;60200
+Czech Republic;Brno;Špitálka;60200
+Czech Republic;Brno;Koliště;60200
+Czech Republic;Brno;Pekařská;60200
+Czech Republic;Ostrava;Stodolní;70200
+Czech Republic;Ostrava;Masarykova;70200
+Czech Republic;Ostrava;Karolina;70200
+Czech Republic;Ostrava;Opavská;70200
+Czech Republic;Ostrava;Nádražní;70200
+Czech Republic;Ostrava;Mírové náměstí;70200
+Czech Republic;Ostrava;Hranická;70200
+Czech Republic;Ostrava;Klimkovická;70200
+Czech Republic;Ostrava;Ruská;70200
+Czech Republic;Ostrava;Českobratrská;70200
+Slovakia;Bratislava;Hviezdoslavovo námestie;81101
+Slovakia;Bratislava;Karadžičova;81102
+Slovakia;Bratislava;Obchodná;81106
+Slovakia;Bratislava;Špitálska;81108
+Slovakia;Bratislava;Námestie SNP;81101
+Slovakia;Bratislava;Dostojevského rad;81108
+Slovakia;Bratislava;Panská;81101
+Slovakia;Bratislava;Mlynské nivy;82109
+Slovakia;Bratislava;Ružinovská;82106
+Slovakia;Bratislava;Petržalka;85101
+Slovakia;Košice;Hlavná;04001
+Slovakia;Košice;Masarykova;04001
+Slovakia;Košice;Kuzmányho;04001
+Slovakia;Košice;Mlynská;04001
+Slovakia;Košice;Námestie Maratónu Mieru;04001
+Slovakia;Košice;Lichnerova;04001
+Slovakia;Košice;Strojárenská;04002
+Slovakia;Košice;Kováčska;04001
+Slovakia;Košice;Alejová;04001
+Slovakia;Nitra;Špitálska;94901
+Slovakia;Nitra;Bratislavská;94901
+Slovakia;Nitra;Chrenovská;94901
+Slovakia;Nitra;Svätoplukova;94901
+Slovakia;Nitra;Fatranská;94901
+Slovakia;Nitra;Biskupická;94901
+Slovakia;Nitra;Na Drahách;94901
+Slovakia;Nitra;Tríbečská;94901
+Slovakia;Nitra;Kmeťova;94901
+Slovakia;Nitra;Kováčska;94901
+Hungary;Budapest;Andrássy út;1062
+Hungary;Budapest;Váci utca;1052
+Hungary;Budapest;Rákóczi út;1084
+Hungary;Budapest;Kossuth Lajos utca;1055
+Hungary;Budapest;Deák Ferenc tér;1052
+Hungary;Budapest;Nyugati tér;1065
+Hungary;Budapest;József körút;1085
+Hungary;Budapest;Pest;1051
+Hungary;Budapest;Károly körút;1075
+Hungary;Budapest;Margit körút;1025
+Slovenia;Ljubljana;Prešernov trg;1000
+Slovenia;Ljubljana;Tivoli Park;1000
+Slovenia;Ljubljana;Cesta Ljubljanske brigade;1000
+Slovenia;Ljubljana;Miklošičeva cesta;1000
+Slovenia;Ljubljana;Trg republike;1000
+Slovenia;Ljubljana;Dalmatinova ulica;1000
+Slovenia;Ljubljana;Vodnikova cesta;1000
+Slovenia;Ljubljana;Bežigrad;1000
+Slovenia;Ljubljana;Celovška cesta;1000
+Slovenia;Ljubljana;Šmartinska cesta;1000
+Slovenia;Maribor;Slomškov trg;2000
+Slovenia;Maribor;Trg svobode;2000
+Slovenia;Maribor;Ljudski vrt;2000
+Slovenia;Maribor;Cankarjeva ulica;2000
+Slovenia;Maribor;Pobrežje;2000
+Slovenia;Maribor;Miklošičeva ulica;2000
+Slovenia;Maribor;Pohorska ulica;2000
+Slovenia;Maribor;Trg revolucije;2000
+Slovenia;Maribor;Tabor;2000
+Slovenia;Celje;Krekov trg;3000
+Slovenia;Celje;Trg svobode;3000
+Slovenia;Celje;Vič;3000
+Slovenia;Celje;Mariborska cesta;3000
+Slovenia;Celje;Velenjska cesta;3000
+Slovenia;Celje;Partizanska cesta;3000
+Slovenia;Celje;Gornji trg;3000
+Slovenia;Celje;Breg;3000
+Slovenia;Celje;Zagrebaška ulica;3000
+Slovenia;Celje;Tovarna;3000
