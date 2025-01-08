@@ -1,0 +1,15 @@
+INSERT INTO countries (country_id, name) VALUES ('PL', 'Poland');
+INSERT INTO countries (country_id, name) VALUES ('DE', 'Germany');
+INSERT INTO countries (country_id, name) VALUES ('FR', 'France');
+INSERT INTO countries (country_id, name) VALUES ('BE', 'Belgium');
+INSERT INTO countries (country_id, name) VALUES ('NL', 'Netherlands');
+INSERT INTO countries (country_id, name) VALUES ('CZ', 'Czech Republic');
+INSERT INTO countries (country_id, name) VALUES ('SK', 'Slovakia');
+INSERT INTO countries (country_id, name) VALUES ('HU', 'Hungary');
+INSERT INTO countries (country_id, name) VALUES ('AT', 'Austria');
+INSERT INTO countries (country_id, name) VALUES ('CH', 'Switzerland');
+INSERT INTO countries (country_id, name) VALUES ('IT', 'Italy');
+INSERT INTO countries (country_id, name) VALUES ('SE', 'Sweden');
+INSERT INTO countries (country_id, name) VALUES ('DK', 'Denmark');
+INSERT INTO countries (country_id, name) VALUES ('FI', 'Finland');
+INSERT INTO countries (country_id, name) VALUES ('NO', 'Norway');
