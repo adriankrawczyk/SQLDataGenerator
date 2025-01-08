@@ -1,0 +1,26 @@
+PL;Warsaw
+PL;Kraków
+PL;Łódź
+DE;Berlin
+DE;Munich
+DE;Hamburg
+FR;Paris
+FR;Marseille
+FR;Lyon
+BE;Brussels
+BE;Antwerp
+BE;Ghent
+NL;Amsterdam
+NL;Rotterdam
+NL;The Hague
+CZ;Prague
+CZ;Brno
+CZ;Ostrava
+SK;Bratislava
+SK;Košice
+SK;Nitra
+HU;Budapest
+HU;Debrecen
+HU;Szeged
+SI;Ljubljana
+SI;Maribor
