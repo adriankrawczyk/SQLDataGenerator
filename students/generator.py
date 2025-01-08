@@ -5,7 +5,7 @@ def capitalize_first_letter(file_path):
             lines = file.readlines()
         
         # Ensure we don't lose content and capitalize each line safely
-        capitalized_lines = [line[:1].upper() + line[1:] if line else '' for line in lines]
+        capitalized_lines = [line[:1].upper() + line[1:].lower() if line else '' for line in lines]
         
         # Write back the modified lines to the file
         with open(file_path, 'w') as file:
