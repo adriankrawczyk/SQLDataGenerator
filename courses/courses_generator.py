@@ -49,12 +49,11 @@ class CourseDataGenerator:
             price = round(random.uniform(500, 3000), 2)
             
             file.write(
-                f"INSERT INTO course (course_id, name, maxpeopl, price) "
-                f"VALUES ({course_id}, '{name}', {maxpeopl}, {price});\n"
+                f"INSERT INTO course ( name, maxpeople, price) "
+                f"VALUES ( '{name}', {maxpeopl}, {price});\n"
             )
             course_ids.append(course_id)
-            if course_id % 1000 == 0:
-                file.write("COMMIT;\n")
+
         return course_ids
 
     def generate_course_classes(self, course_ids: List[int], file: TextIO) -> List[tuple]:
@@ -70,15 +69,13 @@ class CourseDataGenerator:
                 class_name = random.choice(self.CLASS_NAMES).format(course=course_name)
                 
                 file.write(
-                    f"INSERT INTO course_class (class_id, name, course_id) "
-                    f"VALUES ({class_id}, '{class_name}', {course_id});\n"
+                    f"INSERT INTO course_class ( name, course_id) "
+                    f"VALUES ( '{class_name}', {course_id});\n"
                 )
                 
                 class_records.append((class_id, course_id))
                 class_id += 1
-                
-                if class_id % 1000 == 0:
-                    file.write("COMMIT;\n")
+
         
         return class_records
 
@@ -95,15 +92,13 @@ class CourseDataGenerator:
                 time_end = time_start + timedelta(hours=random.randint(1, 4))
                 
                 file.write(
-                    f"INSERT INTO course_meeting (activity_id, time_start, time_end, class_id) "
-                    f"VALUES ({activity_id}, '{time_start}', '{time_end}', {class_id});\n"
+                    f"INSERT INTO course_meeting (time_start, time_end, class_id) "
+                    f"VALUES ( '{time_start}', '{time_end}', {class_id});\n"
                 )
                 
                 activity_ids.append(activity_id)
                 activity_id += 1
-                
-                if activity_id % 1000 == 0:
-                    file.write("COMMIT;\n")
+
         
         return activity_ids
 
@@ -115,7 +110,7 @@ class CourseDataGenerator:
             num_students = random.randint(10, 50)
             
             for _ in range(num_students):
-                student_id = random.randint(1, 5000)  # Assuming a pool of 5000 students
+                student_id = random.randint(1, 935) 
                 
                 file.write(
                     f"INSERT INTO course_attendant (study_id, student_id, course_id) "
@@ -123,8 +118,7 @@ class CourseDataGenerator:
                 )
                 
                 study_id += 1
-                if study_id % 1000 == 0:
-                    file.write("COMMIT;\n")
+
 
     def generate_data(self) -> None:
         """Generate all course-related data."""
@@ -149,10 +143,6 @@ class CourseDataGenerator:
             # Generate course attendants
             self.generate_course_attendants(course_ids, attendant_file)
 
-            # Write final commits
-            for file in [course_file, class_file, meeting_file, attendant_file]:
-                file.write("\nCOMMIT;\n")
-                file.write("\nSET FOREIGN_KEY_CHECKS=1;\n")
 
 if __name__ == "__main__":
     generator = CourseDataGenerator()
