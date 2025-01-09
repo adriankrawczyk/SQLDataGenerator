@@ -2,6 +2,8 @@ import random
 from datetime import datetime, timedelta
 
 def generate_webinars(count=100):
+    tutor_ids = [2, 3, 4, 5, 6, 7, 9, 10, 13, 14, 15, 17, 18, 20, 23, 26, 28, 31, 34, 35, 36, 37, 39, 42, 44, 46, 51, 52, 57, 59, 62, 63, 64, 66, 69, 72, 73, 75, 76, 78, 79, 80, 81, 82, 83, 86, 87, 89, 92, 96, 98, 101, 102, 104, 105, 106, 107, 112, 114, 115, 116, 117, 118, 120, 121, 123, 125, 126, 129, 132, 134, 136, 137, 139, 140, 143, 144, 148, 152, 153, 156, 159, 161, 162, 163, 164, 166, 167, 175, 176, 178, 180, 185, 186, 187, 189, 193, 194, 197, 199]
+
     TOPICS = {
         'Python Programming': [
             'Introduction to Python basics and syntax',
@@ -76,19 +78,14 @@ def generate_webinars(count=100):
         file.write(f"-- Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
 
         for activity_id in range(1, count + 1):
-            # Select random topic and description
             topic = random.choice(list(TOPICS.keys()))
             description = random.choice(TOPICS[topic])
-            
-            # Generate other fields
             meeting_url = generate_meeting_url()
-            product_id = random.randint(1, 20)  # Assuming 20 different products
-            tutor_id = random.randint(1, 50)    # Assuming 50 different tutors
-            organization_id = random.randint(1, 10)  # Assuming 10 different organizations
+            tutor_id = random.choice(tutor_ids) 
             price = generate_price()
             webinar_date = generate_date()
             admission_fee = generate_admission_fee()
-
+            translation_id = random.randint(0,1030)
             # Create webinar name by combining topic with a type
             webinar_types = ['Masterclass', 'Workshop', 'Bootcamp', 'Training', 'Seminar']
             name = f"{topic} {random.choice(webinar_types)}"
@@ -100,10 +97,10 @@ def generate_webinars(count=100):
 
             # Write SQL insert statement
             file.write(
-                f"INSERT INTO webinar (activity_id, name, description, meeting_url, product_id, "
-                f"tutor_id, organization_id, price, webinar_date, admission_fee) VALUES "
-                f"({activity_id}, '{name}', '{description}', '{meeting_url}', {product_id}, "
-                f"{tutor_id}, {organization_id}, {price}, '{webinar_date}', {admission_fee});\n"
+                f"INSERT INTO webinar ( name, description, meeting_url, "
+                f"tutor_id, translation_id, price, webinar_date, admission_fee) VALUES "
+                f"('{name}', '{description}', '{meeting_url}', "
+                f"{tutor_id}, {translation_id} ,{price}, '{webinar_date}', {admission_fee});\n"
             )
 
 if __name__ == "__main__":
