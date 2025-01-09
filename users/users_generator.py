@@ -125,30 +125,22 @@ def insert_countries():
     with open("insert_countries.sql", "w", encoding="utf-8") as file:
         for country_id, country in zip(country_ids, countries):
             file.write(f"INSERT INTO countries (name) VALUES ('{country}');\n")
-
 def insert_cities():
     city_file_path = "./data/places.txt"
     cities_sql_path = "insert_cities.sql"
-    
-    # Lista krajów z przypisanymi indeksami (1-based index)
     countries = [
         "Poland", "Germany", "France", "Belgium", "Netherlands",
         "Czech Republic", "Slovakia", "Hungary", "Austria", "Switzerland",
         "Italy", "Sweden", "Denmark", "Finland", "Norway"
     ]
-    
     unique_cities = set()
-    
     with open(city_file_path, "r", encoding="utf-8") as places_file, open(cities_sql_path, "w", encoding="utf-8") as cities_file:
         cities_file.write("-- SQL script to insert unique cities into the 'cities' table\n\n")
-        
         for line in places_file:
             country_name, city_name, _, _ = line.strip().split(";")
-            
             if country_name in countries:
                 country_id = countries.index(country_name) + 1  # Indeksowanie od 1
                 entry_key = (country_id, city_name)
-                
                 if entry_key not in unique_cities:
                     unique_cities.add(entry_key)
                     cities_file.write(f"INSERT INTO cities (country_id, name) VALUES ({country_id}, '{city_name}');\n")

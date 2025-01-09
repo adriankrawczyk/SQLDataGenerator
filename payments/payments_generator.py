@@ -21,11 +21,22 @@ def generate_order_data(num_orders=100):
         end_date = datetime.now()
         time_between_dates = end_date - start_date
         days_between_dates = time_between_dates.days
-        random_number_of_days = random.randrange(days_between_dates)
-        # Round to nearest minute instead of second for cleaner timestamps
+
+        if days_between_dates > 0:
+            random_number_of_days = random.randrange(days_between_dates)
+        else:
+            random_number_of_days = 0  # No days to add
+
+        # Generate minutes regardless of days
         random_number_of_minutes = random.randrange(1440)  # Minutes in a day
-        random_date = start_date + timedelta(days=random_number_of_days, minutes=random_number_of_minutes)
+        random_date = start_date + timedelta(days=random_number_of_days,    minutes=random_number_of_minutes)
+
+        # Ensure that random_date does not exceed end_date
+        if random_date > end_date:
+            random_date = end_date - timedelta(minutes=random.randint(0, 59))
+
         return random_date.strftime('%Y-%m-%d %H:%M:00')  # Set seconds to 00
+
 
     def round_price(price):
         # Round to nearest .99 or .50 for more realistic pricing
@@ -94,8 +105,8 @@ def generate_order_data(num_orders=100):
             # Write order details records
             for detail in order_details:
                 details_file.write(
-                    f"INSERT INTO order_details (order_id, product_id, price, paid, payment_id) "
-                    f"VALUES ({order_id}, {detail['product_id']}, "
+                    f"INSERT INTO order_details (order_id, price, paid, payment_id) "
+                    f"VALUES ({order_id}, "
                     f"{detail['price']:.2f}, {detail['paid']:.2f}, {detail['payment_id']});\n"
                 )
 

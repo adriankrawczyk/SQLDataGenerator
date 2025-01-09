@@ -1,13 +1,10 @@
 import random
 
-# Parse the existing translator-language assignments
 translator_languages = {}
 
-# Read the file and parse assignments
 with open('./users/insert_translator_language.sql', 'r') as f:
     for line in f:
         if line.strip():
-            # Extract translator_id and language_id using string manipulation
             parts = line.split('VALUES (')[1].strip(');\n').split(', ')
             translator_id = int(parts[0])
             language_id = int(parts[1])
