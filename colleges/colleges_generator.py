@@ -128,7 +128,7 @@ class CollegeDataGenerator:
                             practice_date = self.generate_datetime()
                             practices_file.write(
                                 f"INSERT INTO practices (practice_id, college_id, date) "
-                                f"VALUES ({practice_id}, {college_id}, '{practice_date}');\n"
+                                f"VALUES ({practice_id}, {college_id}, '{practice_date.date()}');\n"
                             )
                             if practice_id % 1000 == 0:
                                 practices_file.write("COMMIT;\n")
@@ -159,19 +159,16 @@ class CollegeDataGenerator:
                         attendant_file.write("COMMIT;\n")
 
                     # Generate schedule details
-                    schedule_id = study_id * 10
-                    start_date = self.generate_datetime(-180, -30)  # Wider date range
-                    end_date = self.generate_datetime(30, 365)      # Wider date range
-                    grade = round(random.uniform(2.0, 5.0), 1)
+                    start_date = self.generate_datetime(-180, -30).date()  # Normalized date without milliseconds
+                    end_date = self.generate_datetime(30, 365).date()      # Normalized date without milliseconds
+                    grade = random.choice([2.0, 3.0, 3.5, 4.0, 4.5, 5.0])  # Limited to specific grades
                     passed = 1 if grade >= 3.0 else 0
                     
                     schedule_file.write(
-                        f"INSERT INTO schedule_details (schedule_details_id, student_id, class_id, "
-                        f"start_date, end_date, grade, passed) VALUES "
-                        f"({schedule_id}, {student_id}, {actual_class_id}, "
-                        f"'{start_date}', '{end_date}', {grade}, {passed});\n"
+                        f"INSERT INTO schedule_details (student_id, class_id, start_date, end_date, grade, passed) VALUES "
+                        f"({student_id}, {actual_class_id}, '{start_date}', '{end_date}', {grade}, {passed});\n"
                     )
-                    if schedule_id % 1000 == 0:
+                    if i % 1000 == 0:
                         schedule_file.write("COMMIT;\n")
 
             # Write final commits
@@ -179,6 +176,7 @@ class CollegeDataGenerator:
                         presence_file, attendant_file, schedule_file]:
                 file.write("\nCOMMIT;\n")
                 file.write("\nSET FOREIGN_KEY_CHECKS=1;\n")
+
 
 if __name__ == "__main__":
     generator = CollegeDataGenerator()
