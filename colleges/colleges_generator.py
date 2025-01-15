@@ -28,7 +28,7 @@ class CollegeDataGenerator:
 
     def __init__(self, num_colleges: int = 50):
         self.num_colleges = num_colleges
-        self.current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        self.current_time = datetime.now().strftime('%Y-%m-%d %H:%M')
         self.base_date = datetime.now() - timedelta(days=365)  # Start from 1 year ago
 
     def generate_datetime(self, start_offset_days: int = 0, end_offset_days: int = 365) -> datetime:
@@ -112,12 +112,12 @@ class CollegeDataGenerator:
             for college_id in range(1, self.num_colleges + 1):
                 self.generate_college(college_id, college_file)
 
-                # Generate classes (increased number)
+                # Generate classes
                 num_classes = random.randint(8, 15)
                 for class_id in range(1, num_classes + 1):
                     actual_class_id = self.generate_class(class_id, college_id, class_file)
 
-                    # Generate meetings (increased number)
+                    # Generate meetings
                     num_meetings = random.randint(3, 8)
                     for meeting_id in range(1, num_meetings + 1):
                         activity_id = self.generate_meeting(meeting_id, actual_class_id, college_id, meeting_file)
@@ -125,15 +125,15 @@ class CollegeDataGenerator:
                         # Generate practices
                         for practice_offset in range(0, random.randint(5, 10)):
                             practice_id = activity_id * 100 + practice_offset
-                            practice_date = self.generate_datetime()
+                            practice_date = self.generate_datetime().strftime('%Y-%m-%d')  # Format date without milliseconds
                             practices_file.write(
                                 f"INSERT INTO practices (practice_id, college_id, date) "
-                                f"VALUES ({practice_id}, {college_id}, '{practice_date.date()}');\n"
+                                f"VALUES ({practice_id}, {college_id}, '{practice_date}');\n"
                             )
                             if practice_id % 1000 == 0:
                                 practices_file.write("COMMIT;\n")
 
-                            # Generate practice presence (increased number of students)
+                            # Generate practice presence
                             num_students = random.randint(15, 40)
                             for student_id in range(1, num_students + 1):
                                 present = random.choice([0, 1])
@@ -144,11 +144,11 @@ class CollegeDataGenerator:
                             if student_id % 1000 == 0:
                                 presence_file.write("COMMIT;\n")
 
-                # Generate attendants (increased number)
+                # Generate attendants
                 num_attendants = random.randint(30, 80)
                 for i in range(num_attendants):
-                    study_id = (college_id-1)*1000 + i  # Increased multiplier for more attendants
-                    student_id = random.randint(1, 5000)  # Increased student pool
+                    study_id = (college_id-1)*1000 + i
+                    student_id = random.randint(1, 5000)
                     semester = random.randint(1, 8)
                     
                     attendant_file.write(
@@ -158,14 +158,13 @@ class CollegeDataGenerator:
                     if study_id % 1000 == 0:
                         attendant_file.write("COMMIT;\n")
 
-                    # Generate schedule details
-                    start_date = self.generate_datetime(-180, -30).date()  # Normalized date without milliseconds
-                    end_date = self.generate_datetime(30, 365).date()      # Normalized date without milliseconds
-                    grade = random.choice([2.0, 3.0, 3.5, 4.0, 4.5, 5.0])  # Limited to specific grades
+                    start_date = self.generate_datetime(-180, -30).date().strftime('%Y-%m-%d')  # Only date component
+                    end_date = self.generate_datetime(30, 365).date().strftime('%Y-%m-%d')  
+                    grade = random.choice([2.0, 3.0, 3.5, 4.0, 4.5, 5.0])
                     passed = 1 if grade >= 3.0 else 0
                     
                     schedule_file.write(
-                        f"INSERT INTO schedule_details (student_id, class_id, start_date, end_date, grade, passed) VALUES "
+                        f"INSERT INTO schedule_details (study_id, class_id, start_date, end_date, grade, passed) VALUES "
                         f"({student_id}, {actual_class_id}, '{start_date}', '{end_date}', {grade}, {passed});\n"
                     )
                     if i % 1000 == 0:
@@ -176,6 +175,7 @@ class CollegeDataGenerator:
                         presence_file, attendant_file, schedule_file]:
                 file.write("\nCOMMIT;\n")
                 file.write("\nSET FOREIGN_KEY_CHECKS=1;\n")
+
 
 
 if __name__ == "__main__":
